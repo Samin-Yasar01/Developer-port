@@ -40,11 +40,12 @@ nav ul {
 }
 
 /* banner */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     margin: 0 200px;
 }
+
 .hi {
 
     font-weight: 600;
@@ -53,79 +54,125 @@ nav ul {
 }
 
 .Marry {
-   align-items: inherit;
+    align-items: inherit;
     font-weight: 700;
     font-size: 85px;
     color: #181818;
 }
 
 .desc {
-    
+
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
 }
+
 /* Background */
-.header{
+.header {
     background-color: #FFFFFF;
-    background-image: url(../images/header_bg.png) , url(../images/developer.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
 
 /* Main section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about sectiuon styles */
-.about{
-      margin-top: 130px;
-      background: #FFF8F3;
-      border-radius: 10px;
-      padding: 130px 150px;
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-bottom: 110px;
 }
-.section-title{
-  text-align: center;
-  margin-bottom: 30px;
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
 }
-.section-desc{
+
+.section-desc {
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
 }
-.about-information{
+
+.about-information {
     display: flex;
     text-align: center;
     justify-content: space-around;
 }
-.about-info{
-    
-}
-.info-title{
+
+.info-title {
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
-    
     text-align: center;
-    
-    /* Dark 03 */
-    
     color: #757575;
-    
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
-    
     text-align: center;
-    
-    /* Dark 02 */
-    
     color: #474747;
 }
+
+/* what i do */
+.title {
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.skills-container {
+    display: flex;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skills {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Gradient */
+/*.bannerlast{
+    padding: 60px 130px;
+    background-image: url(../images/gradient2.png),url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+.quote{
+    align-items: inherit;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fffbfb;
+}
+.btn-call{
+    height: 64px;
+    border-radius: 5px;
+    background: #f6f3f2;
+    font-weight: 700;
+    font-size: 20px;
+    color: #f97501;
+    border: 0;
+    padding: 18px 35px;
+}*/
